@@ -1,0 +1,18 @@
+{
+  "name": "testTravis",
+  "version": "0.0.1",
+  "description": "Starting with Travis and testing code in git repos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "petar <petar.non@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0"
+  }
+}
